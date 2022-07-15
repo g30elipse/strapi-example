@@ -27,10 +27,12 @@
       "inversedBy": "posts"
     },
     "cover": {
-      "allowedTypes": ["images"],
       "type": "media",
       "multiple": false,
-      "private": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     }
   }
 }
